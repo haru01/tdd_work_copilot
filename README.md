@@ -30,7 +30,7 @@ npm test
    1. github coplilotのチャットを開いて、Agentモードに切り替えて、3.Red_新しいスタックは空であるテストを作成し実行.mdの内容を貼り付けて実行してください。
 
 2. まずテストを書き（Red）、最小限の実装でテストを通し（Green）、リファクタリング（Refactor）を行います。
-3. 各ステップでREADME、Stack.ts, Stack.test.ts を参照しながら進めてください。
+3. 各ステップで Stack.test.ts, Stack.ts, TODO.md を参照しながら進めてください。
 
 ---
 
