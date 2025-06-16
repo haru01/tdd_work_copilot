@@ -3,8 +3,8 @@
 ## 基本的な空のStack操作
 
 - [ ] 新しいStackは空である
-- [ ] 新しいStackのサイズは0である
-- [ ] 新しいStackでisEmpty()はtrueを返す
+  - [ ] 新しいStackのサイズは0である
+  - [ ] 新しいStackでisEmpty()はtrueを返す
 
 ## push操作
 
