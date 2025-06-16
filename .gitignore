@@ -1,25 +1,28 @@
-# Node
+# Node.js
 node_modules/
 
 # TypeScript
 *.tsbuildinfo
-
-# Build output
 dist/
 build/
 
-# Logs
+# 環境ごとの設定ファイル
+.env
+
+# VSCode
+.vscode/
+
+# OSごとの不要ファイル
+.DS_Store
+Thumbs.db
+
+# テストの出力
+coverage/
+
+# ログ
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# OS files
-.DS_Store
-Thumbs.db
-
-# Env files
-.env
-.env.*
-
-# VSCode
-.vscode/
+# その他
+*.log

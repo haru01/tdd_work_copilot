@@ -1,38 +1,37 @@
-# TDD Stack Sample Project
+# テスト駆動開発（TDD）学習プロジェクト
 
-このプロジェクトは、テスト駆動開発（TDD）をTypeScriptとVitestで学ぶためのサンプルです。Stack（スタック）クラスを題材に、TDDの基本サイクルを体験できます。
+このプロジェクトは、テスト駆動開発（TDD: Test Driven Development）の手法を学ぶためのサンプルリポジトリです。
+
+## 特徴
+- TypeScript + Vitest によるテスト環境
+- スタック（Stack）を題材に、TDDのRed/Green/Refactorサイクルを体験
+- コマンドごとにTDDのステップをドキュメント化
 
 ## セットアップ
+1. 依存パッケージのインストール
 
 ```sh
 npm install
 ```
 
-## テストの実行
+2. テストの実行（runモード）
 
 ```sh
 npm test
-# または
-npx vitest run
 ```
 
-## 学習ステップ
+## ディレクトリ構成
+- `stack.test.ts` : スタックのテストコード
+- `sample.test.ts` : サンプルテスト（1+1=2）
+- `command/` : TDDの各ステップを記載したドキュメント
 
-1. `TODO.md` のテストリストに沿って、1つずつテストを書きます（Red）
-2. テストが失敗することを確認します
-3. テストが通る最小限の実装を行います（Green）
-4. 必要に応じてリファクタリングします（Refactor）
-5. すべての仕様を満たすまで繰り返します
-
-## 進捗管理
-
-- `TODO.md` でテスト項目の進捗を管理できます
-
-## 参考
-
-- [Vitest公式ドキュメント](https://vitest.dev/)
-- [テスト駆動開発（TDD）とは](https://ja.wikipedia.org/wiki/テスト駆動開発)
+## 学習の進め方
+1. `command/` ディレクトリの手順に従い、TDDの各ステップを体験してください。
+2. まずテストを書き（Red）、最小限の実装でテストを通し（Green）、リファクタリング（Refactor）を行います。
+3. 各ステップでREADMEやテストコードを参照しながら進めてください。
 
 ---
 
-このプロジェクトを通じて、TDDの基本サイクルを体験してください。
+## 参考
+- [Vitest公式ドキュメント](https://vitest.dev/)
+- [テスト駆動開発（TDD）とは](https://ja.wikipedia.org/wiki/テスト駆動開発)
