@@ -34,4 +34,5 @@ npm test
 
 ## 参考
 - [Vitest公式ドキュメント](https://vitest.dev/)
+- [テスト駆動開発](https://www.agile-studio.jp/post/apm-test-driven-develpment)
 - [テスト駆動開発（TDD）とは](https://ja.wikipedia.org/wiki/テスト駆動開発)
